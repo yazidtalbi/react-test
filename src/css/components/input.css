@@ -1,0 +1,24 @@
+.input {
+  display: block;
+}
+.input__label {
+  margin-bottom: 10;
+  font-size: 14px;
+}
+.input__input {
+  border: 1px solid var(--light);
+  border-radius: 12px;
+  height: 50px;
+  padding-left: 15px;
+  width: 100%;
+  background-color: var(--bg);
+}
+
+.input.error .input__input {
+  border-color: rgb(192, 51, 51);
+}
+.input__error {
+  margin-top: 4px;
+  font-size: 12px;
+  color: rgb(192, 51, 51);
+}

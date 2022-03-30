@@ -1,0 +1,23 @@
+.nav {
+  height: 80px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.02);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7%;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 0 15px;
+}
+.nav-link a.active {
+  font-weight: 600;
+  color: var(--primary);
+}
+.header-link:last-child {
+  padding-right: 0;
+}

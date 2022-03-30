@@ -1,0 +1,5 @@
+1. A class component needs to extend from React compared to functional components that receives props as argument and returns a React element.
+2. Hooks should be called at top level and not inside loops or conditions.
+3. useEffect() works anytime an update happens to the React components.
+4. State is for updating data.
+5. Props are arguments passed into React components. 

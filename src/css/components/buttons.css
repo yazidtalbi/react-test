@@ -1,0 +1,16 @@
+.btn {
+  padding: 11px 30px;
+  border-radius: 12px;
+  background-color: var(--primary);
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.btn.large {
+  padding: 13px 40px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.btn.full {
+  width: 100%;
+}

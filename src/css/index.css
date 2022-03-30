@@ -1,3 +1,6 @@
+@import './layout/index.css';
+@import './components/index.css';
+@import './pages/index.css';
 :root {
   --bg: #f7f7f7;
   --font: 'Poppins';
@@ -32,5 +35,5 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: calc(100vh - 80px);
+  height: calc(100vh - var(--header-height));
 }

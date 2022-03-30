@@ -1,0 +1,22 @@
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - var(--header-height));
+}
+.login__form {
+  background-color: white;
+  padding: 2.7em;
+  border-radius: 12px;
+  box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.02);
+}
+.login__form__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.login__form .input {
+  margin-bottom: 20px;
+}
+.login__form .input:last-child {
+  margin-bottom: 0px;
+}
